@@ -8,7 +8,7 @@ set(${PROJECT_NAME}_BOARD uno)
 project(${PROJECT_NAME})
 
 # Define additional source and header files or default arduino sketch files
-set(${PROJECT_NAME}_SRCS Slave.cpp LoopbackStream.cpp)
+set(${PROJECT_NAME}_SRCS SDCP.cpp LoopbackStream.cpp)
 set(${PROJECT_NAME}_HDRS sdcp.h LoopbackStream.h)
 
 ### Additional static libraries to include in the target.
